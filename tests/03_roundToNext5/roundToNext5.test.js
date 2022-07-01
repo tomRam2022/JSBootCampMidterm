@@ -14,7 +14,7 @@ describe('roundToNext5', () => {
     expect(typeof returnedValue).to.equal('number');
   });
 
-  it('returns an array of all numbers including the number passed', () => {
+  it('returns a number rounded to the next 5 of original number passed', () => {
     const returnedValue = roundToNext5(18);
     expect(returnedValue).to.equal(20);
     expect(roundToNext5(7)).to.equal(10);
