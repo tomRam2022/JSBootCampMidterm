@@ -4,7 +4,7 @@ const {
   swapCase,
 } = require('./swapCase');
 
-describe.only('swapCase', () => {
+describe('swapCase', () => {
   it('is a function', () => {
     expect(typeof swapCase).to.equal('function');
   });
